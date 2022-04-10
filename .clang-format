@@ -1,0 +1,8 @@
+﻿---
+BasedOnStyle: Google
+Cpp11BracedListStyle: 'false'
+SortIncludes: 'false'
+TabWidth: '4'
+IndentWidth: '4'
+
+...
