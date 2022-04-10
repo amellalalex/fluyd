@@ -19,7 +19,7 @@ dirs:
 	mkdir -p $(BIN)
 
 game: $(OBJ)
-	$(CC) -o $(BIN)/game $^ $(LDFLAGS)
+	$(CC) -o $(BIN)/fluyd $^ $(LDFLAGS)
 
 %.o: %.c 
 	$(CC) -o $@ -c $< $(CFLAGS)
